@@ -1,6 +1,6 @@
 #Caio Gomes Brandão Rios - Lista de Exercícios Nº 3
 
-#Questão 1: https://github.com/caio-rios/3Lista
+#Questão 1: https://github.com/caio-rios/TerciraLista
 
 #Questão 2
 
@@ -37,13 +37,13 @@ turmas_pe <- turmas [turmas$CO_UF == "26", ]
 
 turmas_pe <- data.frame(turmas_pe)
 
-setwd ("C:/Users/kibca/Desktop/Lista3/3Lista")
+setwd ("C:/Users/kibca/Desktop/Lista3/TerciraLista")
 
 save(turmas_pe, file = "turmas_pe.RData")
 
 #Questão 5
 
-setwd("C:/Users/kibca/Desktop/Lista3/3Lista")
+setwd ("C:/Users/kibca/Desktop/Lista3/TerciraLista")
 
 load("turmas_pe.RData")
 
@@ -58,7 +58,7 @@ setwd ("C:/Users/kibca/Desktop/Dados")
 docentes_ne <- read.csv2(file = "DOCENTES_NORDESTE.csv", sep = "|")
 docentes_pe <- docentes_ne [docentes_ne$CO_UF == "26", ]
 
-setwd ("C:/Users/kibca/Desktop/Lista3/3Lista")
+setwd ("C:/Users/kibca/Desktop/Lista3/TerciraLista")
 
 save(docentes_pe, file = "docentes_pe.RData")
 
